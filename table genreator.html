@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="table genreator.css" />
+		<title>table generator</title>
+	</head>
+	<body>
+		<div class="container">
+			<h2>Generate Table</h2>
+			<label for="rows">
+				Number of rows<input
+					type="number"
+					id="rows"
+					placeholder="enter number < 100"
+				/>
+			</label>
+
+			<label for="columns">
+				Nmber of columns<input
+					type="number"
+					id="columns"
+					placeholder="enter number < 100"
+				/>
+			</label>
+			<input type="submit" />
+		</div>
+		<div class="tableContainer">
+			<table></table>
+		</div>
+		<script src="table genreator.js"></script>
+	</body>
+</html>

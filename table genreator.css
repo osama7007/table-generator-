@@ -1,0 +1,42 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+.container {
+	width: 300px;
+	height: 150px;
+	margin: auto;
+	text-align: center;
+}
+[type="submit"] {
+	width: 70px;
+	margin-top: 5px;
+	margin-right: 200px;
+}
+#rows,
+#columns {
+	margin: 5px 0px;
+}
+.table {
+	margin: auto;
+	text-align: center;
+	border: 1px solid #000;
+	border-collapse: collapse;
+}
+td {
+	border: 1px solid #000;
+	border-collapse: collapse;
+}
+.tableCols,
+.tableRows {
+	padding: 10px;
+	width: 50px;
+	height: 50px;
+}
+.tableContainer {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+}
